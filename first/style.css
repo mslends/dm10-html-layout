@@ -1,16 +1,4 @@
-html {
-  box-sizing: border-box;
-}
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-body {
-  background-color: #d8d8d8;
-  margin: 0 auto;
-  height: 100vh;
-  width: 100%;
-}
 
 .header {
   background-color: #444444;
@@ -18,16 +6,32 @@ body {
   width: 100%;
 }
 
-.main-container {
-  background-color: #ffffff;
-  width: 75%;
-  height: 100vh;
-  margin: 0 auto;
+.left-section {
+  background-color: red;
+  height: 800px;
+  width: 20%;
+  float: left;
+}
+
+.middle-section {
+  background-color: blue;
+  height: 800px;
+  width: 60%;
+  float: left;
+}
+
+.right-section {
+  background-color: green;
+  height: 800px;
+  width: 20%;
+  float: left;
 }
 
 .footer {
   background-color: #1d1f21;
   height: 75px;
-  width: 75%;
+  width: 60%;
   margin: 0 auto;
+  position: fixed;
+  bottom: 0;
 }
