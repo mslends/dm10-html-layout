@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0 auto;
+}
+
+
+.header {
+  height: 150px;
+  width: 100%;
+  background-color: red;
+}
+
+.main-content {
+  background-color: blue;
+  width: 100%;
+  padding: 40px;
+}
+
+.p {
+  font-size: 30px;
+}
+
+.top-section {
+  height: 200px;
+  width: 100%;
+  background-color: orange;
+}
